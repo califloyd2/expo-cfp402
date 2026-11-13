@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proyectos finales · Expo 2026</title>
+<meta name="description" content="Producciones finales de los estudiantes de Operador/a en Herramientas de Marketing y Venta Digital.">
+<meta name="theme-color" content="#faf7f2">
+<meta property="og:title" content="Proyectos finales · Expo 2026">
+<meta property="og:description" content="Doce emprendimientos pensados, diseñados y comunicados por sus propios creadores.">
+<meta property="og:type" content="website">
+<link rel="preload" href="fonts/instrument-serif-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="cabecera">
+  <div class="wrap">
+    <div class="marca">
+      <div class="marca__izq">
+        <img class="marca__logo" src="logo-cfp402-720.webp" alt="Logo del CFP N.º 402 de Luján" width="92" height="93">
+        <div class="marca__txt">
+          <p class="marca__cfp">CFP N.º 402 <span class="punto">·</span> Luján</p>
+          <p class="marca__dir">Centro de Formación Profesional</p>
+        </div>
+      </div>
+      <p class="marca__expo">Expo 2026</p>
+    </div>
+    <p class="eyebrow">Operador/a en Herramientas de Marketing y Venta Digital</p>
+    <h1>Doce proyectos,<br><em>doce emprendimientos</em></h1>
+    <p class="lead">Producciones finales de la cursada: cada trabajo tiene identidad, estrategia y una marca propia detrás. Elegí uno y miralo completo, tal como lo entregó su autor.</p>
+    <div class="contador"><span id="contador">12</span> proyectos disponibles</div>
+  </div>
+</header>
+
+<nav class="barra" aria-label="Filtros">
+  <div class="wrap barra__in">
+    <div class="buscador">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="buscar" type="search" placeholder="Buscar por proyecto, estudiante o rubro…" autocomplete="off" aria-label="Buscar proyectos">
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Filtrar por rubro"></div>
+  </div>
+</nav>
+
+<main class="wrap">
+  <div class="grilla" id="grilla"></div>
+  <p class="vacio" id="vacio" hidden>No encontramos proyectos con esa búsqueda.</p>
+</main>
+
+<section class="curso" id="curso">
+  <div class="wrap">
+    <p class="eyebrow">El curso</p>
+    <h2 class="curso__titulo">¿Y si el próximo proyecto<br><em>es el tuyo</em>?</h2>
+    <p class="curso__lead">Todo lo que viste arriba se enseña en el curso de <strong>Operador/a en Herramientas de Marketing y Venta Digital</strong>: 27 encuentros donde cada estudiante trabaja con su propio emprendimiento como caso real.</p>
+
+    <div class="publico">
+      <div class="publico__col">
+        <p class="publico__label">Para quién es</p>
+        <ul class="publico__lista">
+          <li>Emprendedores y feriantes que quieren ordenar su marca y sus redes.</li>
+          <li>Comercios y servicios chicos de Luján, Olivera y la zona.</li>
+          <li>Quienes quieren trabajar en marketing digital para otros negocios.</li>
+        </ul>
+      </div>
+      <div class="publico__col">
+        <p class="publico__label">Perfil profesional</p>
+        <p class="publico__texto">Interviene en la ejecución de estrategias de promoción de productos y servicios con herramientas, plataformas y portales digitales.</p>
+        <p class="publico__req"><strong>Requisito:</strong> primario o equivalente aprobado. Sin experiencia previa en tecnología.</p>
+      </div>
+    </div>
+
+    <ol class="modulos">
+      <li class="modulo">
+        <span class="modulo__num">01</span>
+        <h3 class="modulo__titulo">Bases del marketing digital</h3>
+        <p class="modulo__texto">Qué es el marketing y para qué sirve en un negocio chico. Identidad de marca, propuesta de valor y cliente ideal.</p>
+      </li>
+      <li class="modulo">
+        <span class="modulo__num">02</span>
+        <h3 class="modulo__titulo">Redes sociales y contenido</h3>
+        <p class="modulo__texto">Instagram y Facebook desde cero: perfil de negocio, diseño en Canva, calendario, reels, historias y hashtags.</p>
+      </li>
+      <li class="modulo">
+        <span class="modulo__num">03</span>
+        <h3 class="modulo__titulo">Posicionamiento local</h3>
+        <p class="modulo__texto">Google, Perfil de Empresa y Maps para que te encuentren en tu zona. WhatsApp Business con catálogo y respuestas automáticas.</p>
+      </li>
+      <li class="modulo">
+        <span class="modulo__num">04</span>
+        <h3 class="modulo__titulo">Publicidad y herramientas</h3>
+        <p class="modulo__texto">Meta Ads y Google Ads con presupuesto chico y segmentación por zona. Métricas, catálogo digital y página de venta.</p>
+      </li>
+      <li class="modulo">
+        <span class="modulo__num">05</span>
+        <h3 class="modulo__titulo">Proyecto final</h3>
+        <p class="modulo__texto">Armás tu plan de marketing completo, lo presentás y te llevás el certificado de capacitación.</p>
+      </li>
+    </ol>
+
+    <div class="ficha">
+      <div class="ficha__dato">
+        <p class="ficha__label">Costo</p>
+        <p class="ficha__valor">Gratuito</p>
+        <p class="ficha__nota">Solo se abona la cuota de la cooperadora.</p>
+      </div>
+      <div class="ficha__dato">
+        <p class="ficha__label">Certificación</p>
+        <p class="ficha__valor">Certificado</p>
+        <p class="ficha__nota">De capacitación, al terminar la cursada.</p>
+      </div>
+      <div class="ficha__dato">
+        <p class="ficha__label">Duración</p>
+        <p class="ficha__valor">27 encuentros</p>
+        <p class="ficha__nota">Con práctica en cada clase.</p>
+      </div>
+      <div class="ficha__dato">
+        <p class="ficha__label">Sede y horario</p>
+        <p class="ficha__valor">A confirmar</p>
+        <p class="ficha__nota">Se anuncian en el Instagram del CFP.</p>
+      </div>
+      <div class="ficha__dato">
+        <p class="ficha__label">Consultas</p>
+        <p class="ficha__valor"><a class="ficha__link" href="https://www.instagram.com/cfp_402_lujan/" target="_blank" rel="noopener">@cfp_402_lujan</a></p>
+        <p class="ficha__nota"><a class="ficha__tel" href="tel:+542323483121">2323483121</a> · <a class="ficha__tel" href="mailto:cfp402lujan@abc.ar">cfp402lujan@abc.ar</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="pie">
+  <div class="wrap pie__in">
+    <div>
+      <p class="pie__titulo">¿Cómo se ve cada proyecto?</p>
+      <p class="pie__texto">Se abre la presentación original, tal como la entregó cada estudiante. Podés leerla desde el celular, sin descargar nada ni crear cuenta.</p>
+    </div>
+    <div class="pie__nota">
+      <p><strong>CFP N.º 402 de Luján</strong> · Centro de Formación Profesional<br><a class="pie__link" href="https://www.instagram.com/cfp_402_lujan/" target="_blank" rel="noopener">@cfp_402_lujan</a></p>
+      <p class="pie__credito">Cada producción es autoría de su estudiante.</p>
+    </div>
+  </div>
+  <div class="wrap pie__fin">
+    <span id="url-texto"></span>
+    <span>Hecho con los trabajos de la cursada.</span>
+  </div>
+</footer>
+
+<div class="visor" id="visor" hidden>
+  <div class="visor__caja">
+    <div class="visor__barra">
+      <div class="visor__info">
+        <p class="visor__rubro" id="v-rubro"></p>
+        <p class="visor__titulo" id="v-titulo"></p>
+      </div>
+      <div class="visor__acciones">
+        <a id="v-abrir" href="#" target="_blank" rel="noopener" class="boton boton--fantasma">Abrir aparte</a>
+        <button id="v-cerrar" class="boton boton--cerrar" aria-label="Cerrar">Cerrar</button>
+      </div>
+    </div>
+    <iframe id="v-frame" title="Presentación del proyecto"></iframe>
+  </div>
+</div>
+
+<script>window.PROYECTOS = [{"slug":"antojitos-criollos","src":"antojitos criollos Catherine.pdf","titulo":"Antojitos Criollos","estudiante":"Catherine Sánchez","rubro":"Gastronomía","bajada":"Arepas, tequeños y recetas tradicionales de Venezuela.","ratio":1.778},{"slug":"cesar-ilusiones-3d","src":"CESAR.pdf","titulo":"César Ilusiones 3D","estudiante":"César","rubro":"Servicios","bajada":"Impresión 3D: piezas funcionales, prototipos y repuestos a medida.","ratio":1.778},{"slug":"bycynthia-digital","src":"CINTHIA.pdf","titulo":"bycynthia.digital","estudiante":"Cynthia Zupancich","rubro":"Marketing","bajada":"Marca personal de community manager, diseño y redacción persuasiva.","ratio":1.778},{"slug":"desafort","src":"Desafort (Darikson).pdf","titulo":"Desafort","estudiante":"Darikson Monasterio","rubro":"Accesorios","bajada":"Joyas para verte caro: identidad de marca y estrategia en redes.","ratio":1.778},{"slug":"rincon-del-abuelo","src":"KIARA.pdf","titulo":"El Rincón del Abuelo","estudiante":"Kiara","rubro":"Textiles","bajada":"Trapos de piso, rejillas y alfombras hechos a mano.","ratio":1.415},{"slug":"petparadise","src":"PetParadise (Thomás).pdf","titulo":"PetParadise","estudiante":"Tomás Somenzi","rubro":"Mascotas","bajada":"Pet shop de artículos para mascotas y consejos de cuidado.","ratio":1.778},{"slug":"alma-indumentaria","src":"Presentación Empresarial para Proyectos de Negocio Profesional (Vanina).pdf","titulo":"Alma Indumentaria","estudiante":"Vanina Cabrera Moray","rubro":"Indumentaria","bajada":"Seis años de local en Luján, ahora con estrategia digital integral.","ratio":1.778},{"slug":"eternas","src":"presentacion Fiamma.pdf","titulo":"Eternas","estudiante":"Fiamma Belén Gómez","rubro":"Estética","bajada":"Peluquería a domicilio y productos específicos para el cabello.","ratio":1.778},{"slug":"agrosimiente","src":"Presentación para Dispositivos Móviles Catálogo Florista Delicado Chic Blanco Verde (Jimena).pdf","titulo":"Agrosimiente","estudiante":"Jimena Monzón","rubro":"Huerta","bajada":"Insumos ecológicos, kits de huerta y talleres online.","ratio":1.778},{"slug":"sweet-treats","src":"Presentación Proyecto final  Sofía.pdf","titulo":"Sweet Treats","estudiante":"Sofía","rubro":"Gastronomía","bajada":"Repostería artesanal y personalizada para eventos.","ratio":1.778},{"slug":"digital-byval","src":"proyecto final Valentina.pdf","titulo":"Digital ByVal","estudiante":"Valentina Mazzoletti","rubro":"Marketing","bajada":"Community management, contenido y estrategias para emprendimientos.","ratio":1.778},{"slug":"yamila","src":"YAMILA.pdf","titulo":"Distribuidora de fiambres y quesos","estudiante":"Yamila","rubro":"Alimentos","bajada":"Venta mayorista de fiambres, quesos, congelados y encurtidos.","ratio":1.778}];</script>
+<script src="app.js"></script>
+</body>
+</html>
